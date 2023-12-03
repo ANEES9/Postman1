@@ -1,0 +1,21 @@
+ git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/ANEES9/Postman1.git
+  git push -u origin main
+
+git status : green= in local repo & Red= in sysytem
+
+1) Go to perticular folder & right click git bash
+2) Enter command "git init" to register  file into "local repo" (after succfl command u will see one git file created in u r folder)
+eg : git add init
+3) exceute "git add" command with file name to add file to local repo
+eg : git add filname
+4)switch too master repo to main => git branch -M main (optional)
+5) push : "git remote add origin https://github.com/ANEES9/Postman1.git"
+6) push to remote repo : git push -u origin main
+
+
+
+git clone giturl => for cloning git content to local machine
